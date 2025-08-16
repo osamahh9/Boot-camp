@@ -19,8 +19,9 @@ nav {
 }
 
 span {
-    font-weight: bold;
+    font-weight: 500;
     color: #E67E22;
+    text-transform: uppercase;
 }
 
 nav ul {

@@ -5,4 +5,17 @@
 
 .featured p {
     margin: 20px;
+    text-transform: uppercase;
+    filter: brightness(0) grayscale(100%) contrast(30%);
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.featured img {
+    height: 1.8em;
+    width: auto;
+    margin: 0 1.5em;
+    margin-bottom: 5em;
+    filter: brightness(0) grayscale(100%) contrast(30%);
+
 }
