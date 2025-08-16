@@ -1,12 +1,47 @@
 #Works {
     margin: 0 26.5em;
+    margin-bottom: 12em;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: #333;
     font-weight: 700;
     line-height: 1.2em;
     margin: 0.6em auto;
 }
 
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6em ;
+}
+
+.steps div {
+    width: 34em;
+    position: relative;
+}
+
+.steps img {
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.steps div p:first-child {
+    font-size: 5rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: #ddd;
+}
+
+.steps div h3 {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+}
