@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/nav&page_set.css">
+    <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/featured.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <a href="#"><img src="img/omnifood-logo.png" alt="omnifood-logo"></a>
         <nav>
+            <a href="#"><img src="img/omnifood-logo.png" alt="omnifood-logo" height="25px"></a>
             <ul>
                 <li><a href="#Works">How it works</a></li>
                 <li><a href="#Meals">Meals</a></li>
                 <li><a href="#Test">Testimonials</a></li>
                 <li><a href="#Price">Pricing</a></li>
-                <li><a href="#Trying">Try for free</a></li> 
+                <li><a href="#Trying" class="orange_btn">Try for free</a></li> 
             </ul> 
         </nav>
-    </header>
-    <main>
-        <section>
-            <div>
-                </div>
-                <h1>A healthy meal delivered to your door, every single day.</h1>
+        <div class="hero">
+            <div class="hero-text">
+                <h1>A healthy meal delivered to your door, every single day</h1>
                 <p>The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.</p>
-                <div>
-                    <a href="#Trying" class="btn">Start eating well</a>
-                    <a href="#How" class="btn btn--outline">Learn more ↓</a>
+                <div class="hero-buttons">
+                    <a href="#Trying" class="orange_btn">Start eating well</a>
+                    <a href="#How" class="white_btn">Learn more ↓</a>
                 </div>
-                <div>
+                <div class="hero-customers">
                     <div>
                         <img src="img/customers/customer-1.jpg" alt="customer-1">
                         <img src="img/customers/customer-2.jpg" alt="customer-2">
@@ -41,10 +44,12 @@
                 </div>
             </div>
             <div>
-                <img src="img/hero.png" alt="hero image" height="500hv">
+                <img src="img/hero.png" alt="hero image" height="550hv">
             </div>
-        </section>
-        <section>
+        </div>
+    </header>
+    <main>
+        <section class="featured">
             <p>AS FEATURED IN</p>
             <div>
                 <img src="img/logos/techcrunch.png" alt="techcrunch logo">
