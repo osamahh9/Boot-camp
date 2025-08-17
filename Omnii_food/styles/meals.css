@@ -1,0 +1,70 @@
+#Meals{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Meals a {
+    color: #E67E22;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 2em;
+    text-underline-offset: 6px;
+}
+
+.meal_item {
+    display: flex;
+    align-items: center;
+    margin-top: 5em;
+    gap: 4em;
+}
+
+.meal_card {
+    width: 300px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    gap: 1.8em;
+}
+
+.meal_card > div {
+    padding-left: 1.5em;
+}  
+
+.meal_card span {
+    font-weight: 500;
+    color: #333;
+    font-size: 0.9rem;
+    line-height: 3em;
+    text-transform: uppercase;
+    margin-right: 0.6em;
+    padding: 0.2em 0.6em;
+    border-radius: 20px;
+    background-color: #51cf66;
+}
+span.vegan {
+    background-color: #94d82d;
+}
+span.paleo {
+    background-color: #ffd43b;
+}
+
+.meal_list li {
+    font-size: 1rem;
+    margin-left: 0.2em;
+    color: #666;
+    margin-bottom: 0.8em;
+    line-height: 1.6em;
+    list-style-type: none;
+}
+.meal_list li::before {
+    width: 1.9em;
+    height: 1em;
+    background-image: url('data:image/svg+xml;utf8,<svg stroke="%23e67e22" stroke-width="2" viewBox="0 0 24 16" xmlns="http://www.w3.org/2000/svg"><polyline points="4 8 10 14 20 2" stroke="%23e67e22" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+}

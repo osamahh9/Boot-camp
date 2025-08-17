@@ -39,9 +39,16 @@ h2 {
     color: #ddd;
 }
 
-.steps div h3 {
+h3 {
     font-size: 1.8rem;
     color: #333;
     font-weight: 700;
     margin-bottom: 0.8em;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.9em;
 }
