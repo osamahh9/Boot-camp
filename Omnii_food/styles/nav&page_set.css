@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+p{
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 0.8em;
+    line-height: 1.6em;
+}   
+
 body {
     font-family: "Rubik", sans-serif;
     background-color: #fff;
